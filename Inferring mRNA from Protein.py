@@ -28,7 +28,7 @@ def codon_frequency(): #kodonların sıklığını hesaplayan fonksiyon
         if v in frequency: 
              frequency[v] = frequency[v] + 1  #  varsa value değerini 1 arttırıyoruz
         else:
-            frequency[v] = 1 #eğer o frequency mapinde o anki codon_map'in key değeri yoksa oluşturup value değerine 1 atıyoruz. Kontrol için yapıyoruz.
+            frequency[v] = 1 #eğer o frequency mapinde o anki codon_map'in key değeri yoksa oluşturup value değerine 1 atıyoruz.
     print(frequency) # frequency çıktılarının değerleri 
     return frequency # frequency mapini döndürüyoruz
 
